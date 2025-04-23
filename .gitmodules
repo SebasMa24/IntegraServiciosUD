@@ -10,3 +10,6 @@
 [submodule "apiGateway"]
 	path = apiGateway
 	url = https://github.com/SebasMa24/apiGateway
+[submodule "microservices/userManagement"]
+	path = microservices/userManagement
+	url = https://github.com/SebasMa24/userManagement
