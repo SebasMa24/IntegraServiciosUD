@@ -1,0 +1,12 @@
+[submodule "microservices/resourseManagement"]
+	path = microservices/resourseManagement
+	url = https://github.com/SebasMa24/resourseManagement
+[submodule "microservices/operationManagement"]
+	path = microservices/operationManagement
+	url = https://github.com/SebasMa24/operationManagement
+[submodule "microservices/queriesManagement"]
+	path = microservices/queriesManagement
+	url = https://github.com/SebasMa24/queriesManagement
+[submodule "apiGateway"]
+	path = apiGateway
+	url = https://github.com/SebasMa24/apiGateway
