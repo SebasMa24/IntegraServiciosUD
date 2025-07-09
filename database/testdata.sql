@@ -44,9 +44,9 @@ BEGIN
         
         day_letter := days_of_week[day_index];
         
-        -- Generar horas aleatorias (inicio menor que fin)
-        start_hour := floor(random() * 14) + 7; -- Entre 7 y 20
-        end_hour := start_hour + floor(random() * (23 - start_hour) + 1); -- Entre start_hour+1 y 23
+        -- Generar horas aleatorias (inicio menor que fin) - Horario laboral 7-19
+        start_hour := floor(random() * 12) + 7; -- Entre 7 y 18
+        end_hour := start_hour + floor(random() * (19 - start_hour) + 1); -- Entre start_hour+1 y 19
         
         -- Añadir al horario en formato D00-00
         schedule_parts := array_append(
